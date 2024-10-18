@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.no-spinners[type="number"] {
+  -moz-appearance: textfield;
+}
+body {
+  background-color: rgb(114, 114, 114);
+  text-align: center;
+  align-items: center;
+}
+.IDname {
+  /* background-color: rgb(255, 255, 255); */
+  margin: 20px 0px 0px 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.IDname input {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+#username {
+  margin: 0px 0px 0px 20px;
+  color: rgb(0, 0, 0);
+  display: none;
+}
+.Avatar {
+  text-align: center;
+  align-items: center;
+  /* background-color: yellow; */
+  padding: 20px 0px;
+  display: none;
+}
+.Avatar img {
+  background-color: green;
+  border: 4px solid black;
+}
+#bioDiv {
+  margin: 20px 0px 0px 10px;
+  /* background-color: red; */
+  /* width: 499px; */
+}
+.bio {
+  padding: 1px;
+  width: 400px;
+}
+a {
+  /* text-decoration: none; */
+  /* list-style-type: none; */
+  color: rgb(34, 9, 255);
+}
+.E {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.6rem;
+  z-index: -1;
+}
+#E404 {
+  display: none;
+}
+.support {
+  text-align: right;
+  padding: 0px 20px 0px 0px;
+  width: 100vw;
+  /* background-color: red; */
+}
+@media screen and (max-width: 630px) {
+  .bio {
+    padding: 1px;
+    width: 360px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .bio {
+    padding: 1px;
+    width: 300px;
+  }
+  .Avatar {
+    width: 100vw;
+  }
+  .Avatar img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .bio {
+    padding: 1px;
+    width: 200px;
+  }
+  .Avatar {
+    width: 100vw;
+  }
+  .Avatar img {
+    width: 200px;
+  }
+}
